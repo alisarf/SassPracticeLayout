@@ -1,5 +1,15 @@
+/*Working with basics
+------------------------------------------------*/
 article {
-  color: black;
-  background-color: #cccccc;
+  background-color: grey;
+  color: blue;
+}
+
+/*Working with mixins
+------------------------------------------------*/
+section {
+  color: #725f22;
+  background-color: #f7e5ad;
+  font-style: italic;
 }
 /*# sourceMappingURL=main.css.map */

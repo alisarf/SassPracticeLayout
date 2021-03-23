@@ -1,7 +1,28 @@
-$mycolor : black;
-$lightbackground : rgb(204, 204, 204);
+  
+/*Working with basics
+------------------------------------------------*/
+//create
+$background1 : grey;
+$lighttextcolor : blue;
 
-article{
-    color : $mycolor;
-    background-color: $lightbackground;
+//use
+article {
+    background-color: $background1;
+    color: $lighttextcolor;
+}
+
+
+
+
+/*Working with mixins
+------------------------------------------------*/
+//create
+@mixin lightpackage {
+    color: #725f22;
+    background-color: #f7e5ad;
+    font-style: italic;
+}
+//use
+section {
+    @include lightpackage;
 }
