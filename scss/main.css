@@ -1,15 +1,21 @@
 /*Working with basics
 ------------------------------------------------*/
 article {
-  background-color: grey;
-  color: blue;
+  background-color: white;
+  color: black;
 }
 
 /*Working with mixins
 ------------------------------------------------*/
 section {
-  color: #725f22;
-  background-color: #f7e5ad;
+  color: white;
+  background-color: grey;
   font-style: italic;
 }
 /*# sourceMappingURL=main.css.map */
+
+#greeting-text {
+  font-size: 50px;
+  font-style: italic;
+
+}

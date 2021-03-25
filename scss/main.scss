@@ -2,13 +2,13 @@
 /*Working with basics
 ------------------------------------------------*/
 //create
-$background1 : grey;
-$lighttextcolor : blue;
+$background1 : white;
+$darktextcolor : black;
 
 //use
 article {
     background-color: $background1;
-    color: $lighttextcolor;
+    color: $darktextcolor;
 }
 
 
@@ -18,8 +18,8 @@ article {
 ------------------------------------------------*/
 //create
 @mixin lightpackage {
-    color: #725f22;
-    background-color: #f7e5ad;
+    color: white;
+    background-color: grey;
     font-style: italic;
 }
 //use
