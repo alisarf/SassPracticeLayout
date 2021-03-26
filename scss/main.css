@@ -5,6 +5,11 @@ article {
   color: black;
 }
 
+#greeting-text {
+  font-size: 50px;
+  font-style: italic;
+}
+
 /*Working with mixins
 ------------------------------------------------*/
 section {
@@ -12,10 +17,20 @@ section {
   background-color: grey;
   font-style: italic;
 }
-/*# sourceMappingURL=main.css.map */
 
-#greeting-text {
-  font-size: 50px;
-  font-style: italic;
-
+/* List details */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
+li {
+  display: inline;
+}
+
+a {
+  padding: 8px;
+  background-color: #dddddd9f;
+}
+/*# sourceMappingURL=main.css.map */
