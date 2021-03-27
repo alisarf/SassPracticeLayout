@@ -23,14 +23,31 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: lightgrey;
 }
 
-li {
+ul li {
   display: inline;
 }
 
-a {
-  padding: 8px;
-  background-color: #dddddd9f;
+ul li a {
+  color: black;
+  padding: 4px;
 }
+
+ul li a:hover {
+  color: grey;
+}
+
+#copyright {
+  font-size: 20px;
+}
+
+/*
+body {
+    background-image: url("../images/background.jpeg");
+    width: 75%;
+    background-size: cover;
+
+} */
 /*# sourceMappingURL=main.css.map */

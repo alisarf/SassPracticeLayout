@@ -1,7 +1,7 @@
   
 /*Working with basics
 ------------------------------------------------*/
-//create
+//create custom pallete
 $background1 : white;
 $darktextcolor : black;
 
@@ -15,7 +15,7 @@ article {
     font-size: 50px;
     font-style: italic;
   
-  }
+}
 
 
 /*Working with mixins
@@ -32,16 +32,32 @@ section {
 }
 
 /* List details */
+//nesting
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: lightgrey;
+    li {
+        display: inline;
+        a {
+            color: black;
+            padding: 4px;
+            }
+        a:hover {
+            color: grey;
+            }
+    }
 }
-li {
-    display: inline;
+
+#copyright {
+    font-size: 20px;
 }
-  
-a {
-    padding: 8px;
-    background-color: #dddddd9f;
-}
+
+/*
+body {
+    background-image: url("../images/background.jpeg");
+    width: 75%;
+    background-size: cover;
+
+} */
